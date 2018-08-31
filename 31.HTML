@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>MultiColumn with css</title>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda" >
+
+        <style>
+            .new {
+                -webkit-column-count: 3;
+                /* Chrome, Safari, Opera */
+                column-count: 3;
+                -webkit-column-width: 100px;
+                font-size: 20px;
+                font-family: 'Merienda', cursive;
+            }
+            div.container {
+                border: 2px blue solid;
+                position: relative;
+                width: 200;
+                height: 770px;
+                padding: 30px;
+                margin: 120px;
+                background: yellow;
+                font-family: 'Dancing Script', cursive;
+                overflow: scroll;
+
+            }
+            div.dummy{
+                display: inline-block;
+                display: block;
+                float: left;
+                width: 30%;
+                padding: 0 10px;
+                margin: 0 auto;
+                border: 1px red solid;
+                border-radius: 25px;
+                font-size: 15px;
+            }
+            div.dummy>large{
+                font-size: 1em;
+            }
+            div.dummy>small.block-title{
+                display: block;
+                font-weight: 300;
+                font-size: 1.2em;
+                font-family: cursive;
+            }
+            body{
+                background-image: url('images/texture.jpg');
+                background-repeat: repeat-x repeat-y;
+    /*            background-size: cover;*/
+            }
+
+    /*
+            div.dummy1 {
+
+                display: block;
+                float: left;
+                width: 25%;
+                padding: 0 10px;
+                margin: 10px;
+                border: 1px red solid;
+                border-radius: 25px;
+            }
+
+            div.dummy2 {
+
+                display: block;
+                float: left;
+                width: 25%;
+                padding: 0 10px;
+                margin: 10px;
+                         margin: auto;
+                border: 1px red solid;
+            }
+    */
+        </style>
+        <!--
+                  position: absolute;
+        width: 50%;
+        bottom: 10px;
+        border: 3px solid #8AC007;
+    -->
+    </head>
+
+    <body>
+
+        <p class="new">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto illum aliquid expedita velit illo libero repudiandae, totam sed cum ducimus nulla maiores quas a culpa vitae sequi minus ipsum? Necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat illum, nihil distinctio neque unde nostrum quam id fugit culpa vero, veniam omnis obcaecati hic suscipit harum modi, porro reiciendis officiaLorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat illum, nihil distinctio neque unde nostrum quam id fugit culpa vero, veniam omnis obcaecati hic suscipit harum modi, porro reiciendis officiaLorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat illum, nihil distinctio neque unde nostrum quam id fugit culpa vero, veniam omnis obcaecati hic suscipit harum modi, porro reiciendis officia
+        </p>
+
+
+        <div class="container">
+
+            <div id="" class="dummy">
+                <small class="block-title">This is Title</small>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid, culpa magni nobis eligendi sapiente? Quos delectus, necessitatibus voluptas ipsam similique dolorum iste excepturi veritatis accusamus, natus nemo consequuntur, eum vitae minus nesciunt iure doloremque. Error mollitia, quibusdam vel, quia repudiandae, earum dolore facere iste, cumque maiores architecto magnam nulla! <large>Lorem</large> ipsum dolor sit amet, consectetur adipisicing elit. Vero eaque, totam eos reprehenderit dignissimos perferendis ipsa molestias at odit, repellat assumenda voluptatibus corporis, iusto ratione explicabo. Officia iste, est molestiae!
+            </div>
+            <div id="" class="dummy">
+                Culpa facilis nostrum amet sunt sequi qui esse, accusamus provident unde eveniet, maiores odit iusto quibusdam sed omnis veritatis quisquam modi aspernatur dolorum magnam fuga facere in vitae excepturi ipsam. Veniam explicabo aliquid doloribus voluptatibus nobis perspiciatis dolorum, voluptates laborum, libero eum fugiat! Ipsa consectetur dolore, error, aliquam repellendus dolorem. us, necessitatibus voluptas ipsam similique dolorum iste excepturi veritatis accusamus, natus nemo consequuntur, eum vitae minus nesciunt iure doloremque. Error mollitia, quibusdam vel, quia repudiandae, earum dolore facere iste, cumque maiores architecto magnam nulla! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eaque, totam eos reprehenderit dignissimos perferendis ipsa molestias at odit, repellat assumenda voluptatibus corporis, iusto ratione explicabo. Officia iste, est molestiae!
+            </div>
+            <div id="" class="dummy">
+                Minima et error, iure facere nemo perspiciatis quam maiores fugit vitae rerum tenetur atque expedita corporis, voluptatem excepturi incidunt nobis veniam ipsum ea necessitatibus ipsa. Consequuntur eaque vitae, facilis quas iste delectus animi in deleniti aut, omnis labore aperiam! Modi reprehenderit dolore sint corporis quod? Impedit iusto iste earum voluptatum.
+            </div>
+
+
+        </div>
+    </body>
+
+</html>
